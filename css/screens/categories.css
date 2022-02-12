@@ -1,0 +1,124 @@
+/* === css for categories page === */
+
+/* css for header */
+.big-wrapper{
+    padding: 1.7rem 0 2rem;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container{
+    max-width: 81rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+header .container{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo>h3{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
+}
+.logo img{
+    width: 50px;
+    margin-right: .6rem;
+}
+.links >ul{
+    display: flex;
+    align-items: center;
+}
+.links a{
+    color: var(--text-color) ;
+    margin-left: 4.5rem;
+    display: inline-block;
+    transition: .1s;
+}
+.links a:hover{
+    color: var(--primary-dark);
+    transform: scale(1.05);
+}
+
+/* css for section */
+section{
+    padding: 3rem 9%;
+}
+section .heading{
+    text-align: center;
+    padding: 2.5rem 0;
+}
+.heading span{
+    font-size: var(--big-font-size);
+    color: var(--primary-dark);
+    background: var(--simple);
+    padding: .2rem 1rem;
+    border-radius: .5rem;
+    font-weight: 700;
+}
+
+.section .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-align: center;
+}
+.section .box-container .box{
+    flex: 1 1 20rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}
+.section .box-container .box img{
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+.section .box-container .box .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.section h3{
+    font-size: var(--big-font-size);
+    color: #333;
+}
+.section p{
+    font-size: var(--normal-font-size);
+    display: block;
+    padding: 1rem 0;
+    color: var(--text-color);
+}
+.section span{
+    display: inline-block;
+}
+.section .btn{
+    margin-top: var(--mb-1);
+}
+
+
+
+
+
+/* css for footer */
+.bottom-area{
+    text-align: center;
+    margin-top: var(--mb-1);
+}
+.bottom-area p{
+    color: var(--text-color-light) ;
+}
+.bottom-area  small{
+    color: var(--text-color-light);
+}
