@@ -24,7 +24,7 @@
         margin-top: var(--mb-1);
         padding: .2rem .5rem;
     }
-    .category-list> .right > a{
+    .category-list> .list-right-side > a{
         display: inline-block;
     }
 }

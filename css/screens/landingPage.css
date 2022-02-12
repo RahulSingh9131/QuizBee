@@ -48,19 +48,7 @@ header .container{
     color: var(--primary-dark);
     transform: scale(1.05);
 }
-.btn{
-    display: inline-block;
-    padding: .9rem 1.9rem;
-    color: #fff !important;
-    border-radius: .5rem;
-    box-shadow: var(--box-shadow);
-    background-color: var(--primary);
-    transition: .3s;
-}
-.btn:hover{
-    background-color: var(--primary-dark);
-    transform: scale(1) !important;
-}
+
 
 .showcase-area .container{
     display: grid;
@@ -81,9 +69,7 @@ header .container{
     max-width: 550px;
     line-height: 1.7;
 }
-/* .right-side{
-    padding: 0rem 1rem;
-} */
+
 
 /* css for right side of landing page */
 
@@ -112,7 +98,7 @@ header .container{
 .category-list:hover{
     cursor: pointer;
 }
-.category-list .right{
+.category-list .list-right-side{
     margin-left: var(--mb-2);
 }
 .category-list i{
