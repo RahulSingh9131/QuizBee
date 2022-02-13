@@ -1,0 +1,10 @@
+/* css for rules page */
+
+.box-container ol{
+    display: flex;
+    padding: 1rem 0rem;
+    flex-direction: column;
+}
+.box-container ol >li{
+    align-self: flex-start;
+}
