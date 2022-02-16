@@ -3,5 +3,6 @@
 @import url('./screens/categories.css');
 @import url('./screens/landingPage.css');
 @import url('./screens/rules.css');
+@import url('./screens/scores.css');
 
 @import url('./mediaQueries.css');
