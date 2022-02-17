@@ -4,5 +4,6 @@
 @import url('./screens/landingPage.css');
 @import url('./screens/rules.css');
 @import url('./screens/scores.css');
+@import url('./screens/questions.css');
 
 @import url('./mediaQueries.css');
